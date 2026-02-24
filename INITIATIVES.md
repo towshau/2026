@@ -70,6 +70,7 @@ This document catalogs the impact of various optimization initiatives, tracking 
 
 ### Session Attendance Tracking (e.g. Heat Map)
 
+<<<<<<< HEAD
 **Description:** Session attendance tracking—such as a heat map view—surfaces attendance data quickly in the 360 dashboard. This reduces time spent on page load and navigation, and cuts down on gym manager/coach questions about how to access this data. It also supports retention by giving managers fast visibility into who is (or isn't) attending, so they can act before at-risk clients churn.
 
 **Benefit 1: Time and Cost Savings (Page Load, Navigation, and "How do I access this?" Questions)**
@@ -77,6 +78,15 @@ This document catalogs the impact of various optimization initiatives, tracking 
 **Previous Process:**
 - Time per client: **3 minutes** (page load, navigation, and handling manager questions on how to access attendance data)
 - Steps: Multiple systems, slow loads, repeated "how do I find this?" support
+=======
+**Description:** Session attendance tracking—such as a heat map view—surfaces attendance data quickly in the 360 dashboard. This reduces time spent on page load and navigation, and cuts down on gym manager/coach questions about how to access this data. It also supports retention by giving managers fast visibility into who is (or isn’t) attending, so they can act before at-risk clients churn.
+
+**Benefit 1: Time and Cost Savings (Page Load, Navigation, and “How do I access this?” Questions)**
+
+**Previous Process:**
+- Time per client: **3 minutes** (page load, navigation, and handling manager questions on how to access attendance data)
+- Steps: Multiple systems, slow loads, repeated “how do I find this?” support
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 
 **New Process:**
 - Direct visibility via dashboard (e.g. heat map); minimal navigation and fewer support questions
@@ -134,7 +144,11 @@ Faster visibility into session attendance allows managers to spot at-risk client
 
 **What it is:** A weekly view (e.g. `view_session_balance_adjusted_25` in Supabase) that shows, per coach, how many sessions/hours were **expected** (from role allocation and roster) versus how many were **actually** delivered—so expectations and actuals are in one place.
 
+<<<<<<< HEAD
 **How it works (simple):** Expected sessions per coach per week come from the roster and role allocations (e.g. FTE/PTE, leave, holidays). Actual sessions come from logged delivery (e.g. `coach_session_actual`). The view compares them and shows a **balance** (actual − expected) so you can see at a glance who's ahead, on track, or behind.
+=======
+**How it works (simple):** Expected sessions per coach per week come from the roster and role allocations (e.g. FTE/PTE, leave, holidays). Actual sessions come from logged delivery (e.g. `coach_session_actual`). The view compares them and shows a **balance** (actual − expected) so you can see at a glance who’s ahead, on track, or behind.
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 
 **Simple diagram:**
 
@@ -158,7 +172,11 @@ Faster visibility into session attendance allows managers to spot at-risk client
 **Benefit of tracking this (before vs after):**
 
 - **Before:** Tracking was **very manual and ambiguous**—similar to relying on a loose HR or spreadsheet approach. Hours and sessions were not clearly defined or visible, which led to **decreased productivity**, **resentment**, and **ambiguity** about how numbers were calculated and who was doing what.
+<<<<<<< HEAD
 - **After:** Expectations and actuals are **transparent and visible** in one place. Each role has a **clear allocation of time**, so the question is **"Is this assigned to me?"** rather than "Am I being judged on unclear numbers?" Work feels **more fair and accounted for**, and there is **less resentment** across the team because everyone can see how expectations and delivery are defined and compared.
+=======
+- **After:** Expectations and actuals are **transparent and visible** in one place. Each role has a **clear allocation of time**, so the question is **“Is this assigned to me?”** rather than “Am I being judged on unclear numbers?” Work feels **more fair and accounted for**, and there is **less resentment** across the team because everyone can see how expectations and delivery are defined and compared.
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 
 ---
 
@@ -166,7 +184,11 @@ Faster visibility into session attendance allows managers to spot at-risk client
 
 **What it is:** Schedule preferences are collected in the `schedule_preferences` table and surfaced in Retool via a **heat map** per coach. Coaches can now see their own preferences, and there is a **12‑week rolling window** in which they can add or change preferences. Gym managers have been trained on the flow.
 
+<<<<<<< HEAD
 **What's implemented:**
+=======
+**What’s implemented:**
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 **How the rolling 12-week window works (in Supabase):**
 
 ```
@@ -210,7 +232,11 @@ Faster visibility into session attendance allows managers to spot at-risk client
 **Benefits:**
 - **Perception of fairness** — Submitting and changing preferences is clear and visible, so the team feels the process is fair rather than opaque or favoring a few.
 - **Better visibility for managers** — Managers can see preferences in one place (e.g. heat map) and use that to balance the roster and set expectations.
+<<<<<<< HEAD
 - **Scalability** — Less reliance on people "deep in the operational system"; the process can scale beyond a small number of power users.
+=======
+- **Scalability** — Less reliance on people “deep in the operational system”; the process can scale beyond a small number of power users.
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 - **Admin can own schedule build** — Opens the door for an **admin team member** to do the heavy lifting for a **monthly schedule build**, instead of it staying with a narrow set of operators.
 - **Framework for communication** — Gives managers a clear basis to correct attitudes, set expectations, and maintain a **fair balance of preferences and coverage** across the team.
 
@@ -218,13 +244,21 @@ Faster visibility into session attendance allows managers to spot at-risk client
 
 ### New Sale Form (New Client Journey Failsafe)
 
+<<<<<<< HEAD
 **What it is:** A new system for handling every new sale, implemented as an N8n flow (the "new client – client journey failsafe"). The work involved **copying** the previous behaviour where possible and **creating a new system** so that new sales are processed consistently and with less manual admin.
+=======
+**What it is:** A new system for handling every new sale, implemented as an N8n flow (the “new client – client journey failsafe”). The work involved **copying** the previous behaviour where possible and **creating a new system** so that new sales are processed consistently and with less manual admin.
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 
 **What was involved (simple):**
 - **Copy:** Recreate the steps and logic from the old way of processing new sales (so nothing important was lost).
 - **Create new:** Build a dedicated N8n flow that runs when a new sale comes through, so the same steps happen automatically and in a clear order (client journey failsafe).
 
+<<<<<<< HEAD
 So in practice: "copy" = bring over the right steps; "create new" = one clear N8n flow that runs those steps for every new sale.
+=======
+So in practice: “copy” = bring over the right steps; “create new” = one clear N8n flow that runs those steps for every new sale.
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
 
 **What the N8n flow does (from the flow):**
 
@@ -288,6 +322,13 @@ So in one run: one new sale → one row in the journey sheet, all DB records in 
 - **Conservative:** Admin time cut by at least half (20 min → ~10 min).
 - **Best estimate:** Down to ~5 minutes per new sale (20 min → 5 min).
 
+<<<<<<< HEAD
 *To scale: multiply time saved per sale by number of new sales per month/year to get total admin hours saved. N8n flow details (e.g. JSON) can be added to this section or linked from a doc such as "test new client – client journey failsafe" once the file is in the repo.*
 
 ---
+=======
+*To scale: multiply time saved per sale by number of new sales per month/year to get total admin hours saved. N8n flow details (e.g. JSON) can be added to this section or linked from a doc such as “test new client – client journey failsafe” once the file is in the repo.*
+
+---
+
+>>>>>>> 7a52ad0d08bdee2c4077effcdba5bb9c8739c24f
