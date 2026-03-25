@@ -34,7 +34,7 @@
 
 **7. Nutrition Consultation Automation (Gemini & Gem)**
 • **What it is:** An automated workflow using Gemini transcripts and Gem to instantly generate and send post-consultation client emails.
-• **Weekly Time Saved:** ~75 minutes per week (coaching team).
+• **Weekly Time Saved:** 15 minutes per week (coaching team).
 • **The Impact:** Completely removes the tedious manual copy-pasting of Fireflies summaries, freeing coaches up faster after every consult.
 
 **8. Cleaning Margin & Hourly Tracker (Joseph)**
@@ -44,7 +44,7 @@
 
 **9. BioMap Supplementation Database (Tadhg & Yam)**
 • **What it is:** A Retool database built to store and instantly retrieve Canva descriptions and supplement links.
-• **Weekly Time Saved:** ~30 minutes per week (during reporting cycles).
+• **Time Saved:** ~30 minutes per week (during reporting cycles), **plus a one-off 3 hours saved** by using Cursor to compile and format the initial supplement research/links instead of manual Excel data entry.
 • **The Impact:** Replaces manual typing with a seamless copy-paste system, laying the exact groundwork for 100% automated PDF generation in the future.
 
 **10. Staff Onboarding (Google NotebookLM)**
@@ -70,11 +70,17 @@
 • **Weekly Time Saved:** 30 minutes per week (1.5 minutes × 20 coaches).
 • **The Impact:** Delivers a twofold effect: it saves half an hour of weekly admin cross-referencing while forcing a sharper, front-of-mind focus on the crucial member health ratings related to session attendance and usage.
 
+**14. Linear Bulk Task Importer (Referral Dashboard)**
+• **What it is:** A Cursor-built Python script to instantly format and bulk-load Connor's Referral Dashboard tasks into Linear with their correct statuses.
+• **Time Saved:** 2 hours (one-off admin time).
+• **The Impact:** Turned a tedious 1.5–2 hour manual copy-paste job (or delegating to admin) into a 5-minute automated import, keeping team focus strictly on execution rather than data entry.
+
 ───
 
 ### 📈 The Bottom Line (Baseline Impact)
 *Note: These baseline numbers scale up significantly as more coaches and managers use the systems.*
 
-• **Total Time Saved:** ~11.3 hours per week of recovered operational capacity.
-• **Total Financial Gain (Weekly):** $2,158 per week ($620 in recovered wage value + $1,538 in conservatively retained revenue).
-• **Total Financial Gain (Yearly):** $112,266 per year (~$32,266 in recovered payroll efficiency + $80,000 in protected client revenue).
+• **Total Weekly Time Saved:** ~10.3 hours per week of recovered operational capacity.
+• **Total One-Off Setup Time Saved:** ~5 hours (BioMap & Linear data ingestion) + 2 hours per new hire onboarding.
+• **Total Financial Gain (Weekly):** $2,098 per week ($560 in recovered wage value + $1,538 in conservatively retained revenue).
+• **Total Financial Gain (Yearly):** $109,110 per year (~$29,110 in recovered payroll efficiency + $80,000 in protected client revenue).
