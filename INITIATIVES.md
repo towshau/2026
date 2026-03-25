@@ -65,11 +65,16 @@
 • **Weekly Time Saved:** ~30 minutes per week (2 hours per month for Andy/Connor).
 • **The Impact:** Turns a 2-hour manual data mining task into a 5-minute query, completely protecting coaching schedule capacity from being blocked off for admin work.
 
+**13. Coach Workbook Adjustments v2 (Attendance Integration)**
+• **What it is:** Removing deprecated individual metrics (replaced by the automated InBody graphs) and injecting critical session attendance data directly into the personal training view.
+• **Weekly Time Saved:** 30 minutes per week (1.5 minutes × 20 coaches).
+• **The Impact:** Delivers a twofold effect: it saves half an hour of weekly admin cross-referencing while forcing a sharper, front-of-mind focus on the crucial member health ratings related to session attendance and usage.
+
 ───
 
 ### 📈 The Bottom Line (Baseline Impact)
 *Note: These baseline numbers scale up significantly as more coaches and managers use the systems.*
 
-• **Total Time Saved:** ~10.8 hours per week of recovered operational capacity.
-• **Total Financial Gain (Weekly):** $2,131 per week ($593 in recovered wage value + $1,538 in conservatively retained revenue).
-• **Total Financial Gain (Yearly):** $110,836 per year (~$30,836 in recovered payroll efficiency + $80,000 in protected client revenue).
+• **Total Time Saved:** ~11.3 hours per week of recovered operational capacity.
+• **Total Financial Gain (Weekly):** $2,158 per week ($620 in recovered wage value + $1,538 in conservatively retained revenue).
+• **Total Financial Gain (Yearly):** $112,266 per year (~$32,266 in recovered payroll efficiency + $80,000 in protected client revenue).
