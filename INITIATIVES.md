@@ -75,6 +75,12 @@
 • **Time Saved:** 2 hours (one-off admin time).
 • **The Impact:** Turned a tedious 1.5–2 hour manual copy-paste job (or delegating to admin) into a 5-minute automated import, keeping team focus strictly on execution rather than data entry.
 
+
+**15. Airwallex Invoice Auto-Match (Google Apps Script)**
+• **What it is:** A Google Apps Script that auto-extracts PDFs from emails (invoices and receipts) and forwards them to Airwallex via a forwarding and automatch procedure. Deployed for Lachy, Connor, Joseph, and Shaun.
+• **Monthly Time Saved:** 1 hour per staff member × 4 people = **4 hours/month minimum** of senior leadership time.
+• **The Impact:** Eliminates the manual hunt-and-upload process for receipt reconciliation in Airwallex. Invoices land, get parsed, and auto-match to card transactions — zero manual intervention required for matched items.
+
 ───
 
 ### 📈 The Bottom Line (Baseline Impact)
@@ -82,5 +88,6 @@
 
 • **Total Weekly Time Saved:** ~10.3 hours per week of recovered operational capacity.
 • **Total One-Off Setup Time Saved:** ~5 hours (BioMap & Linear data ingestion) + 2 hours per new hire onboarding.
+• **Total Monthly Time Saved (Additional):** 4+ hours/month (Airwallex auto-match — Lachy, Connor, Joseph, Shaun).
 • **Total Financial Gain (Weekly):** $2,098 per week ($560 in recovered wage value + $1,538 in conservatively retained revenue).
 • **Total Financial Gain (Yearly):** $109,110 per year (~$29,110 in recovered payroll efficiency + $80,000 in protected client revenue).
